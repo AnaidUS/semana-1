@@ -112,3 +112,28 @@
     color: #ffffff;
     text-shadow: 1px 0.25px 3px #181616;
 }
+
+/*Formulario*/
+
+.contacto{
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+}
+
+.formulario{
+    display: inline-block;
+    max-width: 1100px;
+    background: rgba(209, 74, 175, 0.373);
+    border: 1px solid #ffffff;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.btn-enviar{
+    border-radius: 5px;
+    background: #000000;
+    color: #ffffff;
+}
+

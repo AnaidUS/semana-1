@@ -124,6 +124,44 @@
                 </table>
             </div>
         </aside>
+
+        <section>
+            <div class="contacto" id="contacto">
+                <h3 class="h3">Contacto</h3>
+                <form action="" class="formulario" id="formulario">
+                    <div class="formulario__grupo" id="nombre">
+                        <label for="nombre" class="formulario__label">Nombre: </label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" name="nombre" placeholder="Nombre" id="nombre" class="nombre" required>
+                        </div>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__correo">
+                        <label for="email"  class="formulario__label">Su correo: </label>
+                        <div class="formulario__grupo-input">
+                            <input type="email" name="correo" placeholder="direccion@email.com" class="correo" id="correo" required>
+                        </div>
+                    </div>
+                    <div class="formulario__grupo" id="grupo__asunto">
+                        <label for="asunto"  class="formulario__label">Asunto: </label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" name="asunto" placeholder="Tema..." class="formulario__input" id="asunto" required>
+                        </div>
+                    </div>
+                    <div class="fila formulario__grupo" id="grupo__mensaje">
+                        <label for="mensaje"  class="formulario__label">Mensaje: </label>
+                        <div class="formulario__grupo-input formulario__grupo-mensaje">
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Tu Mensaje..." class="input__full-mensaje formulario__input" max-length = "300"></textarea>
+                        </div>
+                    </div>
+                    <!--Botón para enviar-->
+                    <div class="boton formulario__grupo formulario__grupo-btn-enviar" id="boton">
+                        <input type="submit" id="submit" value="Enviar" class="btn-enviar">
+                    </div>
+                </form>
+                
+            </div>
+            
+        </section>
     </main>
 
     <footer class="footer">
