@@ -14,8 +14,19 @@ let luis = paco + 10;
 let total= hugo + paco + luis;
 
 if (total === 85){
-    console.log("Hugo: " + hugo);
-    console.log("Paco: " + paco);
-    console.log("Luis: " + luis);
+    console.log({hugo, paco, luis});
 }
 
+//total = hugo +(2*hugo) + (2*hugo+10)
+
+
+//objeto humano que me represente
+
+const humano = {
+    name:"Anaid",
+    lastname: "Urióstegui",
+    age: 34,
+    blonde:true
+};
+
+console.log(humano);
